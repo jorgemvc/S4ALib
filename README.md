@@ -56,6 +56,7 @@ setSpeed(int leftVal, int rightVal) | Establece la velocidad de los motores (val
 ## Hardware utilizado
 * [S4A EDU Robotic Controller](http://www.crcibernetica.com/s4a-edu-robotic-controller/)
 * [Bluetooth Module HC-06](http://www.crcibernetica.com/bluetooth-module-hc-06/)
+* [Basic Chassis with gear motors and wheels](http://www.crcibernetica.com/basic-chassis-with-gear-motors-and-wheels/)
 
 ## APP utilizada
 * [Bluetooth Controller](https://play.google.com/store/apps/details?id=com.lafabricadeandroides.lfdabluetoothcontroller)
