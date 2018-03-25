@@ -53,6 +53,9 @@ setSpeed(int leftVal, int rightVal) | Establece la velocidad de los motores (val
 
 ![Instalacion placa](/images/DriversPlaca.png)
 
+## Hardware utilizado
+* [S4A EDU Robotic Controller](http://www.crcibernetica.com/s4a-edu-robotic-controller/)
+* [Bluetooth Module HC-06](http://www.crcibernetica.com/bluetooth-module-hc-06/)
 
 ## Licencia
 Este proyecto ha sido liberado bajo la licencia: **MIT License**
