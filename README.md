@@ -44,7 +44,10 @@ setMotors(bool leftVal, bool rightVal) | Establece la dirección de los motores 
 setSpeed(int leftVal, int rightVal) | Establece la velocidad de los motores (valores entre 0 y 255)
 
 ## Recomendaciones
-- Si va a utilizar el header para comunicaciones, recuerde quitar el dispositivo que tenga conectado antes de cargar el sketch.
+- Si va a utilizar el header para comunicaciones (por ejemplo: Bluetooth HC-06), recuerde **quitar el dispositivo que tenga conectado antes de cargar el sketch**.
+
+![Bluetooth](/images/Bluetooth.jpg)
+
 - Una vez cargado el sketch, se debe utilizar la alimentación externa (**6V - 9V**) y mover el switch de encendido a la posición **ON**.
 - Se puede utilizar la placa **Duemilanove or Diecimila, ATmega328P** o descargar en el administrador de placas
 
