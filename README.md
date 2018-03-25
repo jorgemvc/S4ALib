@@ -60,6 +60,13 @@ setSpeed(int leftVal, int rightVal) | Establece la velocidad de los motores (val
 
 ## APP utilizada
 * [Bluetooth Controller](https://play.google.com/store/apps/details?id=com.lafabricadeandroides.lfdabluetoothcontroller)
+Puede se alguna otra, en ese caso se utilizan los siguientes comandos:
+- **s** para detener el caso
+- **u** para ir hacia adelante
+- **b** para ir hacia atrás
+- **l** para girar a la izquierda
+- **r** para girar a la derecha
+- **1-0** corresponden a los valores del 1 al 10 para la velocidad (1 detenido y 10 la máxima velocidad).
 
 ## Licencia
 Este proyecto ha sido liberado bajo la licencia: **MIT License**
