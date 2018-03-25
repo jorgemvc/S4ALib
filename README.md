@@ -47,7 +47,9 @@ setSpeed(int leftVal, int rightVal) | Establece la velocidad de los motores (val
 - Si va a utilizar el header para comunicaciones, recuerde quitar el dispositivo que tenga conectado antes de cargar el sketch.
 - Una vez cargado el sketch, se debe utilizar la alimentación externa (**6V - 9V**) y mover el switch de encendido a la posición **ON**.
 - Se puede utilizar la placa **Duemilanove or Diecimila, ATmega328P** o descargar en el administrador de placas
-![Imagen](images/driverPlaca.png)
+
+![Instalacion placa](/images/DriversPlaca.png)
+
 
 ## Licencia
 Este proyecto ha sido liberado bajo la licencia: **MIT License**
