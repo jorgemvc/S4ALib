@@ -17,6 +17,7 @@ void setup() {
 }  // setup
 
 void loop() {
+  robot.setSpeed(175, 175);
   robot.forward(500);
   robot.left(500);
   robot.right(500);
