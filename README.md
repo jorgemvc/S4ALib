@@ -6,6 +6,7 @@ Jorge Villalobos Carvajal - Marzo.2018
 
 ## Uso
 Se declara una variable con el tipo de la biblioteca y se inicializa por medio del método **begin** en el **setup** del sketch.
+
 #### Ejemplo
 ```
 #include <S4ALib.h>
