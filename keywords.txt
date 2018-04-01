@@ -13,11 +13,11 @@ SA4Lib  KEYWORD1
 # Methods and Functions (KEYWORD2)
 #######################################
 
-adelante  KEYWORD2
-atras KEYWORD2
-izquierda KEYWORD2
-derecha KEYWORD2
-alto  KEYWORD2
+forward  KEYWORD2
+backward KEYWORD2
+left KEYWORD2
+right KEYWORD2
+stop  KEYWORD2
 ledOn KEYWORD2
 ledOff  KEYWORD2
 
