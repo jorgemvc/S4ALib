@@ -27,23 +27,24 @@ void loop() {
 ```
 
 ## Métodos de la biblioteca
+
 Método | Descripción
 ------ | -----------
-begin() | Inicializa los puertos del controlador (usar en el setup del sketch)
-forward() | Se desplaza hacia adelante
-forward(int ms) | Se desplaza hacia adelante por **_ms_** milisegundos y se detiene
-backward() | Se desplaza hacia atrás
-backward(int ms) | Se desplaza hacia atrás por **_ms_** milisegundos y se detiene
-left() | Gira hacia la izquierda
-left(int ms) | Gira hacia la izquierda por **_ms_** milisegundos y se detiene
-right() | Gira hacia la derecha
-right(int ms) | Gira hacia la derecha por **_ms_** milisegundos y se detiene
-stop() | Detiene ambos motores, estableciendo su velocidad en 0.
-ledOn() | Enciende el led incorporado
-ledOff() | Apaga el led incorporado
-blink(int ms) | Realiza un parpadeo del led incorporado por **_ms_** milisegundos
-setMotors(bool leftVal, bool rightVal) | Establece la dirección de los motores (**LOW** = hacia adelante, **HIGH** = hacia atrás)
-setSpeed(int leftVal, int rightVal) | Establece la velocidad de los motores (valores entre 0 y 255)
+**begin()** | Inicializa los puertos del controlador (usar en el setup del sketch)
+**forward()** | Se desplaza hacia adelante
+**forward(int ms)** | Se desplaza hacia adelante por **_ms_** milisegundos y se detiene
+**backward()** | Se desplaza hacia atrás
+**backward(int ms)** | Se desplaza hacia atrás por **_ms_** milisegundos y se detiene
+**left()** | Gira hacia la izquierda
+**left(int ms)** | Gira hacia la izquierda por **_ms_** milisegundos y se detiene
+**right()** | Gira hacia la derecha
+**right(int ms)** | Gira hacia la derecha por **_ms_** milisegundos y se detiene
+**stop()** | Detiene ambos motores, estableciendo su velocidad en 0.
+**ledOn()** | Enciende el led incorporado
+**ledOff()** | Apaga el led incorporado
+**blink(int ms)** | Realiza un parpadeo del led incorporado por **_ms_** milisegundos
+**setMotors(bool leftVal, bool rightVal)** | Establece la dirección de los motores (**LOW** = hacia adelante, **HIGH** = hacia atrás)
+**setSpeed(int leftVal, int rightVal)** | Establece la velocidad de los motores (valores entre 0 y 255)
 
 ## Recomendaciones
 - Si va a utilizar el header para comunicaciones (por ejemplo: Bluetooth HC-06), recuerde **quitar el dispositivo que tenga conectado antes de cargar el sketch**.
