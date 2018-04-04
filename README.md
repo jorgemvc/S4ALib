@@ -14,15 +14,15 @@ Se declara una variable con el tipo de la biblioteca y se inicializa por medio d
 S4ALib Robot;
 
 void setup() {
-  Robot.begin();
+  Robot.begin();             // Se realiza la inicialización de la placa
 }  // setup
 
 void loop() {
-  robot.setSpeed(175, 175);
-  robot.forward(500);
-  robot.left(500);
-  robot.right(500);
-  robot.backward(500);
+  robot.setSpeed(175, 175);  // Se establece una velocidad de 175 (0-255)
+  robot.forward(500);        // Se avanza hacia adelante por medio segundo
+  robot.left(500);           // Se gira a la izquierda por medio segundo
+  robot.right(500);          // Se gira a la derecha por medio segundo
+  robot.backward(500);       // Se retrocede por medio segundo
 }
 ```
 
