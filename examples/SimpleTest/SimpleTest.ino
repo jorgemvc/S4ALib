@@ -22,7 +22,7 @@ void loop() {
   Robot.forward(500);
 
   Robot.setSpeed(150, 150);
-  Robot.backward(00);
+  Robot.backward(500);
   
   Robot.setSpeed(150, 150);
   Robot.left(500);
