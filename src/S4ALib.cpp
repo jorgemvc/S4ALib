@@ -124,13 +124,15 @@ void S4ALib::right(
 }  // void right
 
 /**
- *   @brief  Stops boths motors
+ *   @brief  Stops boths motors witout changing
+ *           speed variables
  *  
  *   @return void
  */ 
 void S4ALib::stop(){
   setMotors(LOW, LOW);
-  setSpeed(0, 0);
+  analogWrite(LEFTSPEED , 0);
+  analogWrite(RIGHTSPEED, 0);
 }  // void stop
 
 /**
