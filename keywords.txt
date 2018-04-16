@@ -7,7 +7,7 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-SA4Lib	KEYWORD1
+S4ALib	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
