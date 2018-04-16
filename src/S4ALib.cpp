@@ -129,7 +129,8 @@ void S4ALib::right(
  *   @return void
  */ 
 void S4ALib::stop(){
-  setSpeed(0,0);
+  setMotors(LOW, LOW);
+  setSpeed(0, 0);
 }  // void stop
 
 /**
