@@ -124,7 +124,7 @@ void S4ALib::right(
 }  // void right
 
 /**
- *   @brief  Stops boths motors witout changing
+ *   @brief  Stops both motors without changing
  *           speed variables
  *  
  *   @return void
