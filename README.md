@@ -61,6 +61,9 @@ Método | Descripción
 * [Bluetooth Module HC-06](http://www.crcibernetica.com/bluetooth-module-hc-06/)
 * [Basic Chassis with gear motors and wheels](http://www.crcibernetica.com/basic-chassis-with-gear-motors-and-wheels/)
 
+## Detalle de puertos S4A EDU Robotic
+![Placa S4A](/images/S4A_EDU_PCB.jpg)
+
 ## APP utilizada
 * [Bluetooth Controller](https://play.google.com/store/apps/details?id=com.lafabricadeandroides.lfdabluetoothcontroller)
 
