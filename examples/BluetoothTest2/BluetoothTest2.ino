@@ -57,6 +57,7 @@ void loop() {
 
       case 's':
         direction = stopped;
+        break;
 
       default:
         setSpeed(hilera);
@@ -80,10 +81,13 @@ void setSpeed(String str){
 
 void moveRobot() {
   if (direction == stopped) {
+    Robot.ledOn();
     Robot.stop();
   } else if (direction == forward_dir) {
+    Robot.ledOff();
     Robot.forward();
   } else {
+    Robot.ledOff();
     Robot.backward();
   }
 }  // moveRobot
